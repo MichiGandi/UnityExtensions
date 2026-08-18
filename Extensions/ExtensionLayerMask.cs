@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace Extension
+namespace Extension.LayerMask
 {
     public static class LayerMaskExtensions
     {
@@ -11,7 +11,7 @@ namespace Extension
         /// </summary>
         /// <param name="layer"></param>
         /// <returns>True, if the layer is enabled.</returns>
-        public static bool Contains(this LayerMask mask, int layer)
+        public static bool Contains(this UnityEngine.LayerMask mask, int layer)
         {
             return (mask & (1 << layer)) > 0;
         }
@@ -22,9 +22,9 @@ namespace Extension
         /// </summary>
         /// <param name="layer">The layer to read from the collision matrix.</param>
         /// <returns>The new created layer mask. </returns>
-        public static LayerMask GetLayerMaskFromCollisionMatrix(int layer)
+        public static UnityEngine.LayerMask GetLayerMaskFromCollisionMatrix(int layer)
         {
-            LayerMask layerMask = 0;
+            UnityEngine.LayerMask layerMask = 0;
 
             for (int i = 0; i < 32; i++)
             {
@@ -43,7 +43,7 @@ namespace Extension
 		/// </summary>
 		/// <param name="layer">The layer to read from the collision matrix.</param>
 		/// <returns>The updated layermask itself.</returns>
-		public static LayerMask GetLayerMaskFromCollisionMatrix(this LayerMask layerMask, int layer)
+		public static UnityEngine.LayerMask GetLayerMaskFromCollisionMatrix(this UnityEngine.LayerMask layerMask, int layer)
 		{
             layerMask = GetLayerMaskFromCollisionMatrix(layer);
             return layerMask;

@@ -1,0 +1,21 @@
+{
+  "name": "com.michigandi.unityextensions.singletontemplates",
+  "version": "1.0.0",
+  "displayName": "Unity Singleton Templates",
+  "description": "Reusable singleton base class templates for MonoBehaviours and prefabs.",
+  "unity": "2021.3",
+  "license": "MIT",
+  "author": {
+    "name": "MichiGandi",
+    "email": "michi.gandi@online.de",
+    "url": "https://github.com/MichiGandi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichiGandi/UnityExtensions.git"
+  },
+  "keywords": [
+    "singleton",
+    "template"
+  ]
+}

@@ -6,7 +6,7 @@
 using UnityEngine;
 
 
-namespace Extension.Vector
+namespace Extension.VectorInt
 {
 	public static class SwizzleVector2IntTo2Int
 	{

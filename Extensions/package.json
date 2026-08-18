@@ -1,0 +1,21 @@
+{
+  "name": "com.michigandi.unityextensions",
+  "version": "1.0.0",
+  "displayName": "Unity Extensions",
+  "description": "Extension methods for common Unity types.",
+  "unity": "2021.3",
+  "license": "MIT",
+  "author": {
+    "name": "MichiGandi",
+    "email": "michi.gandi@online.de",
+    "url": "https://github.com/MichiGandi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichiGandi/UnityExtensions.git"
+  },
+  "keywords": [
+    "extensions",
+    "utility"
+  ]
+}

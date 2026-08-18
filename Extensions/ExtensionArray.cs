@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Extension
+namespace Extension.Array
 {
     public static class ArrayExtensions
     {
